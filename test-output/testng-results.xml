@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17704" started-at="2021-10-29T09:49:19Z" finished-at="2021-10-29T09:49:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17704" started-at="2021-10-29T09:49:19Z" finished-at="2021-10-29T09:49:37Z">
+      <class name="com.Dropdown.test.DropDownTest">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.Dropdown.test.DropDownTest@78186a70]" name="test" duration-ms="16413" started-at="2021-10-29T09:49:19Z" finished-at="2021-10-29T09:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.Dropdown.test.DropDownTest@78186a70]" name="endReport" is-config="true" duration-ms="1247" started-at="2021-10-29T09:49:36Z" finished-at="2021-10-29T09:49:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.Dropdown.test.DropDownTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
