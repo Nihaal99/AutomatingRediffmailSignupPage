@@ -1,28 +1,22 @@
 package com.Dropdown.logic;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.List;
-import java.util.concurrent.TimeUnit;
-
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.By;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.ui.Select;
-import org.testng.Assert;
-
 import com.Dropdown.excel.ExcelInput;
 import com.Dropdown.utils.DateUtils;
 import com.Dropdown.utils.ExtendReportManager;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class DropdownLogic {
 
@@ -31,11 +25,6 @@ public class DropdownLogic {
 	public ExtentTest logger;
 
 	// ********Invoke The Browser********
-	/*
-	 * To reduce the file size less than 10MB for uploading in tekstac platform,
-	 * drivers are not provided in project instead their zip file is attached
-	 * seperately. To setup drivers read readme.text file
-	 */
 	public void invokeBrowser(String browser) {
 		if (browser.equalsIgnoreCase("chrome")) {
 			System.out.println("Opening chrome");
